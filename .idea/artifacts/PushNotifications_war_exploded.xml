@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PushNotifications:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PushNotifications_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PushNotifications" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.ganyo:gcm-server:1.0.2" />
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="PushNotifications/web/Web" />
+    </root>
+  </artifact>
+</component>
